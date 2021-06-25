@@ -129,6 +129,11 @@ for i in range(args.round):
     print('Result:', result)
     print('Elapsed time: {:,.1f}s'.format(elapsed_time))
     # save a result
-    prefix = current_datetime + '_' + dataset + '_' + miner + '_' + method + '_' + str(n_samples)
-    pickle.dump(elapsed_time, file=open(os.path.join(results_path, prefix + '_elapsed_time.pickle'), 'wb'))
-    pickle.dump(result, open(os.path.join(results_path, prefix + '_output.pickle'), 'wb'))
+    prefix = current_datetime + '-' + dataset + '-' + miner + '-' + method + '-' + str(n_samples)
+    #  pickle.dump(elapsed_time, file=open(os.path.join(results_path, prefix + '_elapsed_time.pickle'), 'wb'))
+    attributes = {'elapsed_time':elapsed_time, 
+            'dataset':dataset, 
+            'miner':miner, 
+            'method':method, 
+            'n_samples':n_samples}
+    pickle.dump([attributes, result], open(os.path.join(results_path, prefix + '.pickle'), 'wb'))
