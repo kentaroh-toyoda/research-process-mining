@@ -102,8 +102,9 @@ def f(x):
 # only mspboa and msgtboa require cboa results
 if not method == 'cboa':
     cboa_results_path = './results/'
-    r = re.compile('.*_cboa_output.pickle')
-    cboa_outputs = list(filter(r.match, os.listdir(cboa_results_path)))
+    cboa_results_pattern = dataset + '-' + miner + '-cboa-' + str(n_samples) + '.pickle'
+    r = re.compile(cboa_results_pattern)
+    cboa_outputs = list(filter(r.search, os.listdir(cboa_results_path)))
 
 for i in range(args.round):
     current_datetime = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -115,15 +116,17 @@ for i in range(args.round):
     elif method == 'mpsboa':
         # randomly pick a cboa result
         chosen_result = random.sample(cboa_outputs, 1)[0]
-        _, _, xS, yS = pickle.load(open(cboa_results_path + chosen_result, 'rb'))
+        attributes, result = pickle.load(open(cboa_results_path + chosen_result, 'rb'))
+        xS = result[2]
+        yS = result[3]
         result = mpsboa(f, dim, n_samples, xS, yS, init_sample_size=5, f_con=None)
     elif method == 'msgtboa':
         # randomly pick two cboa results
         chosen_results = random.sample(cboa_outputs, 2)
-        _, _, xS1, yS1 = pickle.load(open(cboa_results_path + chosen_results[0], 'rb'))
-        _, _, xS2, yS2 = pickle.load(open(cboa_results_path + chosen_results[1], 'rb'))
-        xS = [xS1, xS2]
-        yS = [yS1, yS2]
+        attributes1, result1 = pickle.load(open(cboa_results_path + chosen_results[0], 'rb'))
+        attributes2, result2 = pickle.load(open(cboa_results_path + chosen_results[1], 'rb'))
+        xS = [result1[2], result2[2]]
+        yS = [result1[3], result2[3]]
         result = msgtboa(f, dim, n_samples, xS, yS, init_sample_size=5, f_con=None)
     elapsed_time = round(time.time() - start_time)
     print('Result:', result)
