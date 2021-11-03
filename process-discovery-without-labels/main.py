@@ -103,12 +103,26 @@ def f(x, model_info=None):
     event_log_df.columns.values[indices[1]] = 'concept:name'
     event_log_df.columns.values[indices[2]] = 'time:timestamp'
 
+    # preprocessing
+    # sample dataset by case_id. We keep sampling_ratio of case_ids
+    # list case_ids
+    case_ids = set(event_log_df['case:concept:name'])
+    print('number of traces:', len(case_ids))
+    if len(case_ids) > n_max_traces:
+        # determine which case_ids will be kept
+        sampled_indices = random.sample(case_ids, n_max_traces)
+        # filter out the others
+        event_log_df = event_log_df[event_log_df['case:concept:name'].isin(sampled_indices)]
+    case_ids = set(event_log_df['case:concept:name'])
+    print('number of traces (after sampling):', len(case_ids))
+
+    # when traces have many activities, we just use first n_max_activities in it.
+    event_log_df = event_log_df.groupby('case:concept:name').head(n=n_max_activities)
+
     # do pretest
     if not pretest(event_log_df):
         return 0
 
-    # when traces have many activities, we just use first n_max_activities in it.
-    event_log_df = event_log_df.groupby('case:concept:name').head(n=n_max_activities)
 
     if evaluation_method == 'no split':
         # split a dataset into training and test
@@ -171,18 +185,6 @@ def cross_validation(event_log_df, train, test):
 
 # pretest: return True if all preliminary tests are passed, otherwise return False
 def pretest(event_log_df):
-    # sample dataset by case_id. We keep sampling_ratio of case_ids
-    # list case_ids
-    case_ids = set(event_log_df['case:concept:name'])
-    print('number of traces:', len(case_ids))
-    if len(case_ids) > n_max_traces:
-        # determine which case_ids will be kept
-        sampled_indices = random.sample(case_ids, n_max_traces)
-        # filter out the others
-        event_log_df = event_log_df[event_log_df['case:concept:name'].isin(sampled_indices)]
-    case_ids = set(event_log_df['case:concept:name'])
-    print('number of traces (after sampling):', len(case_ids))
-
     # immediately return False for some extreme cases
     # if a case only contain one activity, then it shouldn't be the case.
     n_activities_in_traces = event_log_df.groupby('case:concept:name')['concept:name'].apply(set).apply(list).apply(len).tolist()
