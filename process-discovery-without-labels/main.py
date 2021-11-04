@@ -7,7 +7,7 @@ import copy
 import time
 import re
 import random
-from string import ascii_uppercase
+#  from string import ascii_uppercase
 from datetime import datetime 
 import pickle
 from pathlib import Path
@@ -86,7 +86,7 @@ print('correct label indices:', labels)
 def f(x, model_info=None):
     # NOTE: Pandas' and Python's deepcopy does not actually copy an object, and we thus need to initialize table header against the original log df every time
     # initialize table header with alphabets
-    original_log_df.columns = [ascii_uppercase[i] for i in range(0, dim)]
+    original_log_df.columns = ['column_' + str(i) for i in range(0, dim)]
     # copy from the original
     event_log_df = original_log_df.copy()
 
@@ -194,7 +194,7 @@ def pretest(event_log_df):
         return False
 
     # timestamp valus must include a number in it
-    if (not all([bool(re.search(r'\d', value)) for value in set(event_log_df['time:timestamp'])])):
+    if (not all([bool(re.search(r'\d', str(value))) for value in set(event_log_df['time:timestamp'])])):
         print(datetime.now().strftime('%Y-%m-%d %H:%M:%S'), 'some timestamp values do not contain a number. score: 0')
         return False
 
