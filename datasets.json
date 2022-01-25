@@ -15,6 +15,31 @@
 		"filename": "PDC2020_ground_truth.zip"
 	},
 	{
+		"name": "BPI_Challenge_2020_Request_For_Payment",
+		"url": "https://data.4tu.nl/ndownloader/files/24061154",
+		"filename": "BPIC2020_Request_For_Payment.xes.gz"
+	},
+	{
+		"name": "BPI_Challenge_2020_Prepaid_Travel_Costs",
+		"url": "https://data.4tu.nl/ndownloader/files/24043835",
+		"filename": "BPIC2020_Prepaid_Travel_Costs.xes.gz"
+	},
+	{
+		"name": "BPIC2020_Travel_Permit_Data",
+		"url": "https://data.4tu.nl/ndownloader/files/24075929",
+		"filename": "BPIC2020_Travel_Permit_Data.xes.gz"
+	},
+	{
+		"name": "BPIC2020_International_Declarations",
+		"url": "https://data.4tu.nl/ndownloader/files/24023492",
+		"filename": "BPIC2020_International_Declarations.xes.gz"
+	},
+	{
+		"name": "BPIC2020_Domestic_Declarations",
+		"url": "https://data.4tu.nl/ndownloader/files/24031811",
+		"filename": "BPIC2020_Domestic_Declarations.xes.gz"
+	},
+	{
 		"name": "Purchase order handling process (BPI Challenge 2019)",
 		"url": "https://data.4tu.nl/ndownloader/files/24072995",
 		"filename": "BPIC2019_purchase_order_handling_process.xes"
@@ -92,7 +117,7 @@
 	{
 		"name": "Anonymized event log of a Dutch Academic Hospital (BPI Challenge 2011)",
 		"url": "https://data.4tu.nl/ndownloader/files/24073733",
-		"filename": "BPIC_2011_Dutch_academic_hospital.xes.gz"
+		"filename": "BPIC2011_Dutch_academic_hospital.xes.gz"
 	},
 	{
 		"name": "Production Analysis with Process Mining Technology",
