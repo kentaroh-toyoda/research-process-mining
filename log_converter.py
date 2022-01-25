@@ -4,9 +4,10 @@ import pandas as pd
 from pm4py.objects.conversion.log import converter as log_converter
 from pm4py.objects.log.importer.xes import importer as xes_importer
 
-for xes_filename in glob.glob('./datasets/*.xes'):
+for xes_filename in glob.glob('./datasets/**/*.xes', recursive=True):
     # set csv filename
-    csv_filename = re.sub(r'xes', 'csv', xes_filename)
+    csv_filename = re.sub(r'\.xes$', '.csv', xes_filename)
+    print(xes_filename, 'is being converted into', csv_filename)
     # read a xes log file
     log = xes_importer.apply(xes_filename)
     # convert it to a data frame
