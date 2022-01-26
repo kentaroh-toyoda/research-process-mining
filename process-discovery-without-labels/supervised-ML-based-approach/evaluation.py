@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from datetime import datetime
+from collections import Counter
 from sklearn.metrics import f1_score
 from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier
@@ -35,7 +36,7 @@ def evaluate(i, d, r_train=0.8, r_other=5, n_estimators=100):
     train_DF_other_sampled = train_DF_other.sample(n=n_samples_other, replace=False)
     train_DF = pd.concat([train_DF_main_classess, train_DF_other_sampled])
     # check if this operation is correct
-    print(train_DF.groupby(['class']).count())
+    print(Counter(train_DF['class']))
     # labels
     y_train = np.array(train_DF['class'])
     # features
