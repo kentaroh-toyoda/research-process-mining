@@ -28,10 +28,11 @@ for dataset in datasets:
         urllib.request.urlretrieve(dataset['url'], full_path)
         # unzip it if it's a zip file
         if re.match(r'.*\.zip$', dataset['filename']):
-            print('It is being decompressed', dataset['name'])
+            print('Decompressing', dataset['name'])
             with zipfile.ZipFile(full_path) as zip_ref:
                 zip_ref.extractall(dataset_dir)
         elif re.match(r'.*\.gz$', dataset['filename']):
+            print('Decompressing', dataset['name'])
             # make a filename for output 
             tmp = re.search(r'(.*)\.gz$', dataset['filename'])
             output_filename = dataset_dir + tmp.group(1)
