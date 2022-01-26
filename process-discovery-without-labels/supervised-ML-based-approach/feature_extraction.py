@@ -54,11 +54,10 @@ def feature_extraction(values):
         f['var_unique_values'] = 0
     return f
 
-nrows = 1000
-def batch_feature_extraction(dataset):
+def batch_feature_extraction(dataset, n_rows=1000):
     print('Processing', dataset)
     # read a csv log file
-    event_log = pd.read_csv(dataset, nrows=nrows)
+    event_log = pd.read_csv(dataset, nrows=n_rows)
     # replace NaN with '' so that an evaluation function can work
     event_log = event_log.fillna(np.nan).replace([np.nan], [''])
     # h: header
