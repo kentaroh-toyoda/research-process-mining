@@ -56,7 +56,7 @@ def feature_extraction(values):
 
 nrows = 1000
 def batch_feature_extraction(dataset):
-    print(dataset, 'is being read')
+    print('Processing', dataset)
     # read a csv log file
     event_log = pd.read_csv(dataset, nrows=nrows)
     # replace NaN with '' so that an evaluation function can work
@@ -71,12 +71,15 @@ def batch_feature_extraction(dataset):
             h.index('time:timestamp')
         ]
         n_columns = event_log.columns.size
-        print('number of columns:', n_columns)
-        # pick one column that is not case_id, activity, or timestamp for 'other' class in supervised ML (if the number of columns is more than three)
+        # pick one column that is not case_id, activity, or timestamp 
+        # for 'other' class in supervised ML (if the number of columns is more than three)
         if n_columns > 3:
-            others = set(range(n_columns)) - set([h.index('case:concept:name'), h.index('concept:name'), h.index('time:timestamp')])
-            other_index = random.choice(tuple(others))
-            print('chosen column:', h[other_index])
+            other_indices = set(range(n_columns)) - \
+                    set([
+                        h.index('case:concept:name'), 
+                        h.index('concept:name'), 
+                        h.index('time:timestamp')
+                        ])
             # feature extraction
             f_caseid = feature_extraction(event_log['case:concept:name'])
             f_caseid['class'] = 'case:concept:name'
@@ -84,7 +87,9 @@ def batch_feature_extraction(dataset):
             f_activity['class'] = 'concept:name'
             f_timestamp = feature_extraction(event_log['time:timestamp'])
             f_timestamp['class'] = 'time:timestamp'
-            f_other = feature_extraction(event_log[h[other_index]])
+            # extract featues of each 'other' column
+            f_other = [feature_extraction(event_log[h[index]]) for index in other_indices]
+            f_other = pd.concat(f_other)
             f_other['class'] = 'other'
             # concatenate features and labels
             f = pd.concat([f_caseid, f_activity, f_timestamp, f_other])
@@ -92,9 +97,10 @@ def batch_feature_extraction(dataset):
             f['dataset'] = dataset
             return f
 
-datasets = glob.glob('../../datasets/*.csv', recursive=False)
-tmp = [batch_feature_extraction(dataset) for dataset in datasets]
-# merge features + classes of all datasets
-f = pd.concat(tmp)
-print(f.head)
-f.to_pickle('./dataset.pkl')
+if __name__ == '__main__':
+    datasets = glob.glob('../../datasets/*.csv', recursive=False)
+    tmp = [batch_feature_extraction(dataset) for dataset in datasets]
+    # merge features + classes of all datasets
+    f = pd.concat(tmp)
+    print(f.head)
+    f.to_pickle('./dataset.pkl')
