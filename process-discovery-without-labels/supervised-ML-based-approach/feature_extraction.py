@@ -6,33 +6,29 @@ import statistics
 import numpy as np
 import pandas as pd
 from collections import Counter
-from collections import OrderedDict
 
 # feature_extraction: 
 # input: expect a vector of values in a column
 # output: set of features
-def local_feature_extraction(value):
+def local_feature_extraction(value, round_digits=3):
     patterns = ['[a-z]', '[A-Z]', '\d', '\s', '[^a-zA-Z\d\s]']
+    f = {}
     if len(value) == 0:
-        f = OrderedDict([
-            ('length', 0), 
-            ('words', 0)
-            ])
+        f['length'] = 0 
+        f['words'] = 0
         for p in patterns:
             f['f_{}'.format(p)] = 0
     else:
-        # length: length of value
-        # words: return words separate by a space (can be captured by \w+
-        f = OrderedDict([
-            ('length', len(value)), 
-            ('words', len(re.findall(r'\w+', value))),
-            ])
+        # length: length of a value
+        f['length'] = len(value)
+        # words: number of words in a value
+        f['words'] = len(re.findall(r'\w+', value))
         # The following code find the frequency of each pattern in patterns in a value
         for p in patterns:
-            f['f_{}'.format(p)] = round(len(re.findall(p, value)) / len(value), 3)
+            f['f_{}'.format(p)] = round(len(re.findall(p, value)) / len(value), round_digits)
     return f
 
-def feature_extraction(values):
+def feature_extraction(values, round_digits=3):
     # set type of values string
     values = values.astype(str)
     # local features
@@ -45,9 +41,9 @@ def feature_extraction(values):
     if len(counts) > 1:
         # find the mean and variance of counts
         # append global features
-        f['ratio_unique_values'] = round(len(set(values)) / len(values), 3)
-        f['mean_unique_values'] = round(statistics.mean(counts), 3)
-        f['var_unique_values'] = round(statistics.variance(counts), 3)
+        f['ratio_unique_values'] = round(len(set(values)) / len(values), round_digits)
+        f['mean_unique_values'] = round(statistics.mean(counts), round_digits)
+        f['var_unique_values'] = round(statistics.variance(counts), round_digits)
     else:
         f['ratio_unique_values'] = 1
         f['mean_unique_values'] = 1
@@ -102,4 +98,4 @@ if __name__ == '__main__':
     # merge features + classes of all datasets
     f = pd.concat(tmp)
     print(f.head)
-    f.to_pickle('./dataset.pkl')
+    #  f.to_pickle('./dataset.pkl')
