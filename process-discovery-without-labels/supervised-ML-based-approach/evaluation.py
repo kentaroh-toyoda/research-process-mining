@@ -8,7 +8,6 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime
 from collections import Counter
-from sklearn.metrics import f1_score
 from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier
 from feature_extraction import batch_feature_extraction
