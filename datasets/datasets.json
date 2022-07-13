@@ -1,0 +1,127 @@
+[
+	{
+		"name": "PDC2020 training",
+		"url": "https://data.4tu.nl/ndownloader/files/28090389",
+		"filename": "PDC2020_training.zip"
+	},
+	{
+		"name": "PDC2020 test",
+		"url": "https://data.4tu.nl/ndownloader/files/28090392",
+		"filename": "PDC2020_test.zip"
+	},
+	{
+		"name": "PDC2020 ground truth",
+		"url": "https://data.4tu.nl/ndownloader/files/28090395",
+		"filename": "PDC2020_ground_truth.zip"
+	},
+	{
+		"name": "BPI_Challenge_2020_Request_For_Payment",
+		"url": "https://data.4tu.nl/ndownloader/files/24061154",
+		"filename": "BPIC2020_Request_For_Payment.xes.gz"
+	},
+	{
+		"name": "BPI_Challenge_2020_Prepaid_Travel_Costs",
+		"url": "https://data.4tu.nl/ndownloader/files/24043835",
+		"filename": "BPIC2020_Prepaid_Travel_Costs.xes.gz"
+	},
+	{
+		"name": "BPIC2020_Travel_Permit_Data",
+		"url": "https://data.4tu.nl/ndownloader/files/24075929",
+		"filename": "BPIC2020_Travel_Permit_Data.xes.gz"
+	},
+	{
+		"name": "BPIC2020_International_Declarations",
+		"url": "https://data.4tu.nl/ndownloader/files/24023492",
+		"filename": "BPIC2020_International_Declarations.xes.gz"
+	},
+	{
+		"name": "BPIC2020_Domestic_Declarations",
+		"url": "https://data.4tu.nl/ndownloader/files/24031811",
+		"filename": "BPIC2020_Domestic_Declarations.xes.gz"
+	},
+	{
+		"name": "Purchase order handling process (BPI Challenge 2019)",
+		"url": "https://data.4tu.nl/ndownloader/files/24072995",
+		"filename": "BPIC2019_purchase_order_handling_process.xes"
+	},
+	{
+		"name": "Payment Process of Common Agricultural Policy (BPI Challenge 2018)",
+		"url": "https://data.4tu.nl/ndownloader/files/24025820",
+		"filename": "BPIC2018.xes.gz"
+	},
+	{
+		"name": "Loan application process of a Dutch financial institute (BPI Challenge 2017)",
+		"url": "https://data.4tu.nl/ndownloader/files/24044117",
+		"filename": "BPIC2017.xes.gz"
+	},
+	{
+		"name": "Click-data for the customers that are not logged in to the website (BPI Challenge 2016)",
+		"url": "https://data.4tu.nl/ndownloader/files/24063158",
+		"filename": "BPIC2016_click_data_for_the_customers_that_are_not_logged_in.csv.zip"
+	},
+	{
+		"name": "Click-data for the customers that are logged in to the website (BPI Challenge 2016)",
+		"url": "https://data.4tu.nl/ndownloader/files/23991602",
+		"filename": "BPIC2016_click_data_for_the_customers_that_are_logged_in.csv.zip"
+	},
+	{
+		"name": "Municipality log 1 (BPI Challenge 2015)",
+		"url": "https://data.4tu.nl/ndownloader/files/24063818",
+		"filename": "BPIC2015_1.xes"
+	},
+	{
+		"name": "Municipality log 2 (BPI Challenge 2015)",
+		"url": "https://data.4tu.nl/ndownloader/files/24044639",
+		"filename": "BPIC2015_2.xes"
+	},
+	{
+		"name": "Municipality log 3 (BPI Challenge 2015)",
+		"url": "https://data.4tu.nl/ndownloader/files/24076154",
+		"filename": "BPIC2015_3.xes"
+	},
+	{
+		"name": "Municipality log 4 (BPI Challenge 2015)",
+		"url": "https://data.4tu.nl/ndownloader/files/24045332",
+		"filename": "BPIC2015_4.xes"
+	},
+	{
+		"name": "Municipality log 5 (BPI Challenge 2015)",
+		"url": "https://data.4tu.nl/ndownloader/files/24069341",
+		"filename": "BPIC2015_5.xes"
+	},
+	{
+		"name": "Change log (BPI Challenge 2014)",
+		"url": "https://data.4tu.nl/ndownloader/files/24073421",
+		"filename": "BPIC2014_change_log.csv"
+	},
+	{
+		"name": "Incident management log (BPI Challenge 2013)",
+		"url": "https://data.4tu.nl/ndownloader/files/24033593",
+		"filename": "BPIC2013_incident_management.xes.gz"
+	},
+	{
+		"name": "Problem management log, open problems (BPI Challenge 2013)",
+		"url": "https://data.4tu.nl/ndownloader/files/24026252",
+		"filename": "BPIC2013_problem_management_open_problems.xes.gz"
+	},
+	{
+		"name": "Problem management log, closed problems (BPI Challenge 2013)",
+		"url": "https://data.4tu.nl/ndownloader/files/24070847",
+		"filename": "BPIC2013_problem_management_closed_problems.xes.gz"
+	},
+	{
+		"name": "Event log of a loan application process (BPI Challenge 2012)",
+		"url": "https://data.4tu.nl/ndownloader/files/24027287",
+		"filename": "BPIC2012_loan_application_process.xes.gz"
+	},
+	{
+		"name": "Anonymized event log of a Dutch Academic Hospital (BPI Challenge 2011)",
+		"url": "https://data.4tu.nl/ndownloader/files/24073733",
+		"filename": "BPIC2011_Dutch_academic_hospital.xes.gz"
+	},
+	{
+		"name": "Production Analysis with Process Mining Technology",
+		"url": "https://data.4tu.nl/ndownloader/files/24045434",
+		"filename": "production_analysis_with_process_mining_technology.zip"
+	}
+]
