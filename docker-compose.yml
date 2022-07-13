@@ -1,0 +1,43 @@
+version: "2"
+services:
+  # certbot:
+    # image: certbot/certbot
+    # volumes:
+      # - certbot-etc:/etc/letsencrypt
+    # ports:
+      # - "80:80"
+    # command:
+      # - certonly
+      # - --standalone
+      # - --agree-tos
+      # - --keep-until-expiring
+      # - --non-interactive
+      # - -m kentaroh.toyoda@ieee.org
+      # - -d idra.ohtsuki.ics.keio.ac.jp
+
+  jupyter-lab:
+    # depends_on:
+      # certbot:
+        # condition: service_completed_successfully
+    build:
+      context: docker
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8888"
+    volumes:
+      - ./.jupyter:/home/jovyan/.jupyter
+      - ./notebooks:/home/jovyan/notebooks
+      - ./scripts:/home/jovyan/scripts
+      - ./datasets:/home/jovyan/datasets
+      - ./results:/home/jovyan/results
+      - ./plots:/home/jovyan/plots
+      # - certbot-etc:/etc/letsencrypt
+    command:
+      - --no-browser
+      - --ip=0.0.0.0
+      # - --allow-root
+      # - --keyfile=/etc/letsencrypt/live/idra.ohtsuki.ics.keio.ac.jp/privkey.pem
+      # - --certfile=/etc/letsencrypt/live/idra.ohtsuki.ics.keio.ac.jp/fullchain.pem
+
+# volumes:
+  # certbot-etc:
