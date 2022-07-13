@@ -1,0 +1,16 @@
+{
+    // Fonts
+    // @deathbeds/jupyterlab-fonts:fonts
+    // Settings for JupyterLab Fonts
+    // *********************************
+
+    // Global Styles
+    // JSS-compatible JSON applied to the Global scope
+    "styles": {
+        ":root": {
+            "--jp-code-line-height": "1.75",
+            "--jp-code-font-family": "'DejaVu Sans Mono'",
+            "--jp-code-font-size": "14px"
+        }
+    }
+}
