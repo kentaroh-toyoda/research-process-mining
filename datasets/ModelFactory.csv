@@ -1,0 +1,414 @@
+case:concept:name,ProductID,Quantity,OrderType,IssueDate,time:timestamp,Priority,LocationID,RouteID,Description,concept:name
+2002030001,1612,1,0,2020-02-03 16:16:36,2020-02-04 08:43:06,88,2,20421,"eScentz (P-T, BL) with Personalised Text",eScentz with Packaging
+2002030001,1547,1,2,2020-02-03 16:16:36,2020-02-04 08:43:06,88,2,20422,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002030001,1538,1,2,2020-02-03 16:16:36,2020-02-04 08:43:06,88,2,20423,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002030001,1140,2,2,2020-02-03 16:16:36,2020-02-04 08:43:07,88,2,20424,"eScentz Cartridge, Peppermint-Tea Tree",Customized Cartridge
+2002040001,1548,1,2,2020-02-04 08:44:44,2020-02-04 09:04:50,88,2,20427,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2002040001,1539,1,2,2020-02-04 08:44:45,2020-02-04 09:04:50,88,2,20428,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2002040001,80,2,2,2020-02-04 08:44:45,2020-02-04 09:04:50,88,2,20429,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002040002,1348,1,0,2020-02-04 09:39:55,2020-02-04 10:47:40,88,2,20431,"eScentz (C-T, WH) with Personalised Text",eScentz with Packaging
+2002040002,1280,1,2,2020-02-04 09:39:55,2020-02-04 10:11:23,88,2,20432,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002040002,1203,1,2,2020-02-04 09:39:55,2020-02-04 10:03:58,88,2,20433,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002040002,1127,2,2,2020-02-04 09:39:55,2020-02-04 10:36:02,88,2,20434,"eScentz Cartridge, Citronella-Tea Tree",Customized Cartridge
+2002040003,1346,1,0,2020-02-04 10:58:04,2020-02-04 11:34:27,88,2,20436,"eScentz (C-E, WH) with Personalised Text",eScentz with Packaging
+2002040003,1280,1,2,2020-02-04 10:58:04,2020-02-04 11:34:03,88,2,20437,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002040003,1203,1,2,2020-02-04 10:58:04,2020-02-04 11:33:44,88,2,20438,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002040003,1125,2,2,2020-02-04 10:58:04,2020-02-04 11:25:46,88,2,20439,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2002050001,1354,1,0,2020-02-05 13:42:53,2020-02-06 10:41:16,88,2,20445,"eScentz (L-T, WH) with Personalised Text",eScentz with Packaging
+2002050001,1280,1,2,2020-02-05 13:42:53,2020-02-06 10:41:16,88,2,20446,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002050001,1203,1,2,2020-02-05 13:42:53,2020-02-06 10:41:16,88,2,20447,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002050001,1408,2,2,2020-02-05 13:42:53,2020-02-06 10:41:16,88,2,20448,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2002060001,1547,1,2,2020-02-06 10:46:01,2020-02-07 09:51:39,88,2,20450,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002060001,1538,1,2,2020-02-06 10:46:01,2020-02-07 09:51:39,88,2,20451,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002060001,80,2,2,2020-02-06 10:46:01,2020-02-07 09:51:40,88,2,20452,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002070001,1580,1,0,2020-02-07 09:55:19,2020-02-07 13:20:04,88,2,20453,"eScentz (T-T, GR) with Personalised Text",eScentz with Packaging
+2002070001,1548,1,2,2020-02-07 09:55:19,2020-02-07 13:20:04,88,2,20454,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2002070001,1539,1,2,2020-02-07 09:55:19,2020-02-07 13:20:04,88,2,20455,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2002070001,80,2,2,2020-02-07 09:55:19,2020-02-07 13:20:04,88,2,20456,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002040004,1352,1,0,2020-02-07 13:22:03,2020-02-04 14:52:54,88,2,20457,"eScentz (L-E, WH) with Personalised Text",eScentz with Packaging
+2002040004,1280,1,2,2020-02-07 13:22:03,2020-02-04 14:44:24,88,2,20458,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002040004,1203,1,2,2020-02-07 13:22:03,2020-02-04 14:42:57,88,2,20459,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002040004,1131,2,2,2020-02-07 13:22:03,2020-02-04 14:29:13,88,2,20460,"eScentz Cartridge, Lavender-Eucalyptus",Customized Cartridge
+2002070002,1366,1,0,2020-02-07 13:25:41,2020-02-10 10:19:47,88,2,20461,"eScentz (T-T, WH) with Personalised Text",eScentz with Packaging
+2002070002,1280,1,2,2020-02-07 13:25:41,2020-02-10 10:19:47,88,2,20462,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002070002,1203,1,2,2020-02-07 13:25:41,2020-02-07 13:57:22,88,2,20463,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002070002,80,2,2,2020-02-07 13:25:41,2020-02-10 10:19:47,88,2,20464,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002030002,1476,60,0,2020-02-07 16:11:07,2020-02-10 10:19:47,50,2,20465,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002070003,1580,1,0,2020-02-07 16:25:11,2020-02-10 10:19:47,88,2,20466,"eScentz (T-T, GR) with Personalised Text",eScentz with Packaging
+2002070003,1548,1,2,2020-02-07 16:25:11,2020-02-10 10:19:47,88,2,20467,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2002070003,1539,1,2,2020-02-07 16:25:11,2020-02-07 16:31:25,88,2,20468,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2002070003,80,2,2,2020-02-07 16:25:11,2020-02-10 10:19:47,88,2,20469,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002100001,1547,1,2,2020-02-10 10:44:37,2020-02-10 14:03:50,88,2,20471,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002100001,1538,1,2,2020-02-10 10:44:37,2020-02-10 12:37:38,88,2,20472,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002100001,80,2,2,2020-02-10 10:44:37,2020-02-10 14:03:50,88,2,20473,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002100002,1547,1,2,2020-02-10 15:17:37,2020-02-10 14:37:48,88,2,20479,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002100002,1538,1,2,2020-02-10 15:17:37,2020-02-10 14:32:13,88,2,20480,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002100002,80,2,2,2020-02-10 15:17:37,2020-02-10 14:33:16,88,2,20481,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002100003,1610,1,0,2020-02-10 15:41:48,2020-02-11 14:18:55,88,2,20482,"eScentz (T-T, BL) with Personalised Text",eScentz with Packaging
+2002100003,1547,1,2,2020-02-10 15:41:48,2020-02-10 16:35:45,88,2,20483,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002100003,1538,1,2,2020-02-10 15:41:48,2020-02-10 16:19:50,88,2,20484,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002100003,80,2,2,2020-02-10 15:41:48,2020-02-11 14:18:55,88,2,20485,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002110001,1547,1,2,2020-02-11 15:12:18,2020-02-11 15:38:22,88,2,20487,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002110001,1538,1,2,2020-02-11 15:12:18,2020-02-11 15:31:05,88,2,20488,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002110001,1124,2,2,2020-02-11 15:12:18,2020-02-11 15:35:11,88,2,20489,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2002120001,1625,1,0,2020-02-13 13:18:41,2020-02-13 13:58:05,88,2,20494,"eScentz (L-T, BL) with Personalised Text",eScentz with Packaging
+2002120001,1547,1,2,2020-02-13 13:18:41,2020-02-13 13:50:16,88,2,20495,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002120001,1538,1,2,2020-02-13 13:18:41,2020-02-13 13:39:30,88,2,20496,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002120001,1408,2,2,2020-02-13 13:18:41,2020-02-13 13:54:25,88,2,20497,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2002130001,1476,60,0,2020-02-13 14:05:28,2020-02-13 17:20:51,50,2,20498,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002130002,1353,1,0,2020-02-13 14:39:42,2020-02-13 17:20:51,88,2,20507,"eScentz (L-P, WH) with Personalised Text",eScentz with Packaging
+2002130002,1280,1,2,2020-02-13 14:39:42,2020-02-13 14:38:04,88,2,20508,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002130002,1203,1,2,2020-02-13 14:39:42,2020-02-13 14:25:56,88,2,20509,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002130002,67,2,2,2020-02-13 14:39:42,2020-02-13 14:44:10,88,2,20510,"eScentz Cartridge, Lavender-Peppermint",Customized Cartridge
+2002140001,1476,60,0,2020-02-14 10:20:59,2020-02-15 10:19:52,50,2,20511,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002140002,1582,1,0,2020-02-14 10:20:59,2020-02-15 10:19:52,88,2,20512,"eScentz (P-P, GR) with Personalised Text",eScentz with Packaging
+2002140002,1548,1,2,2020-02-14 10:20:59,2020-02-15 10:19:52,88,2,20513,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2002140002,1539,1,2,2020-02-14 10:20:59,2020-02-15 10:19:52,88,2,20514,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2002140002,1139,2,2,2020-02-14 10:20:59,2020-02-15 10:19:52,88,2,20515,"eScentz Cartridge, Peppermint-Peppermint",Customized Cartridge
+2002140003,1476,60,0,2020-02-14 11:21:27,2020-02-15 10:19:52,50,2,20516,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002150001,1362,1,0,2020-02-15 10:30:21,2020-02-15 15:49:24,88,2,20517,"eScentz (P-P, WH) with Personalised Text",eScentz with Packaging
+2002150001,1280,1,2,2020-02-15 10:30:21,2020-02-15 11:19:25,88,2,20518,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002150001,1203,1,2,2020-02-15 10:30:21,2020-02-15 11:13:45,88,2,20519,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002150001,1139,2,2,2020-02-15 10:30:21,2020-02-15 11:15:12,88,2,20520,"eScentz Cartridge, Peppermint-Peppermint",Customized Cartridge
+2002180001,1345,1,0,2020-02-18 09:59:19,2020-02-18 14:55:17,88,2,20525,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2002180001,1280,1,2,2020-02-18 09:59:19,2020-02-18 11:36:23,88,2,20526,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002180001,1203,1,2,2020-02-18 09:59:19,2020-02-18 11:20:42,88,2,20527,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002180001,1124,2,2,2020-02-18 09:59:19,2020-02-18 11:40:31,88,2,20528,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2002180002,1346,1,0,2020-02-18 11:32:11,2020-02-18 14:55:17,88,2,20529,"eScentz (C-E, WH) with Personalised Text",eScentz with Packaging
+2002180002,1280,1,2,2020-02-18 11:32:11,2020-02-18 14:03:20,88,2,20530,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002180002,1203,1,2,2020-02-18 11:32:11,2020-02-18 13:57:31,88,2,20531,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002180002,1125,2,2,2020-02-18 11:32:11,2020-02-18 13:57:31,88,2,20532,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2002180003,1476,24,0,2020-02-18 15:06:02,2020-02-19 11:23:05,50,2,20533,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002180004,1234,12,0,2020-02-18 16:23:40,2020-02-18 16:31:55,50,2,20540,Cartridge-Second Dielectric Cured,"Cartridge Assembly, Second Dielectric Circuit Cured (Prep)"
+2002180005,1621,12,0,2020-02-18 17:01:39,2020-02-18 17:00:59,88,2,20550,"eScentz (L-C, BL) with Personalised Text",eScentz with Packaging
+2002180005,1547,12,2,2020-02-18 17:01:39,2020-02-18 17:00:59,88,2,20551,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002180005,1538,12,2,2020-02-18 17:01:39,2020-02-18 17:00:59,88,2,20552,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002180005,1124,24,2,2020-02-18 17:01:39,2020-02-18 17:00:59,88,2,20553,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2002180006,1346,1,0,2020-02-19 11:17:19,2020-02-19 11:23:05,88,2,20562,"eScentz (C-E, WH) with Personalised Text",eScentz with Packaging
+2002180006,1280,1,2,2020-02-19 11:17:19,2020-02-19 11:23:05,88,2,20563,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002180006,1203,1,2,2020-02-19 11:17:19,2020-02-19 11:23:05,88,2,20564,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002180006,1125,2,2,2020-02-19 11:17:19,2020-02-19 11:23:05,88,2,20565,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2002190001,1347,1,0,2020-02-19 14:56:24,2020-02-19 14:55:21,88,2,20570,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2002190001,1280,1,2,2020-02-19 14:56:24,2020-02-19 13:06:04,88,2,20571,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002190001,1203,1,2,2020-02-19 14:56:24,2020-02-19 12:17:00,88,2,20572,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002190001,1126,2,2,2020-02-19 14:56:24,2020-02-19 12:59:30,88,2,20573,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2002190002,1347,1,0,2020-02-19 16:55:02,2020-02-19 16:55:48,88,2,20578,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2002190002,1280,1,2,2020-02-19 16:55:02,2020-02-19 16:22:51,88,2,20579,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002190002,1203,1,2,2020-02-19 16:55:02,2020-02-19 16:03:51,88,2,20580,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002190002,1126,2,2,2020-02-19 16:55:02,2020-02-19 16:26:44,88,2,20581,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2002190003,1354,1,0,2020-02-19 16:57:29,2020-02-19 18:01:41,88,2,20582,"eScentz (L-T, WH) with Personalised Text",eScentz with Packaging
+2002190003,1280,1,2,2020-02-19 16:57:29,2020-02-19 18:01:41,88,2,20583,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002190003,1203,1,2,2020-02-19 16:57:29,2020-02-19 17:24:50,88,2,20584,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002190003,1408,2,2,2020-02-19 16:57:29,2020-02-19 17:24:46,88,2,20585,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2002200001,1476,60,0,2020-02-20 09:32:35,2020-02-20 10:47:14,50,2,20610,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002200002,1351,1,0,2020-02-20 10:23:56,2020-02-20 10:47:14,88,2,20623,"eScentz (L-L, WH) with Personalised Text",eScentz with Packaging
+2002200002,1280,1,2,2020-02-20 10:23:56,2020-02-20 09:58:42,88,2,20624,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002200002,1203,1,2,2020-02-20 10:23:56,2020-02-20 09:44:06,88,2,20625,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002200002,1130,2,2,2020-02-20 10:23:56,2020-02-20 10:36:26,88,2,20626,"eScentz Cartridge, Lavender-Lavender	",Customized Cartridge
+2002200003,1476,60,0,2020-02-20 14:38:37,2020-02-20 10:47:14,50,2,20627,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002200005,1366,1,0,2020-02-20 16:16:50,2020-02-20 10:47:14,88,2,20633,"eScentz (T-T, WH) with Personalised Text",eScentz with Packaging
+2002200005,1280,1,2,2020-02-20 16:16:50,2020-02-20 10:01:27,88,2,20634,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002200005,1203,1,2,2020-02-20 16:16:50,2020-02-20 09:44:06,88,2,20635,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002200005,80,2,2,2020-02-20 16:16:50,2020-02-20 10:39:57,88,2,20636,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002200006,1476,60,0,2020-02-20 17:55:53,2020-02-21 14:48:35,50,2,20638,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002210001,1347,1,0,2020-02-21 14:51:39,2020-02-21 16:06:11,88,2,20639,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2002210001,1280,1,2,2020-02-21 14:51:39,2020-02-21 15:09:35,88,2,20640,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002210001,1203,1,2,2020-02-21 14:51:39,2020-02-21 15:02:48,88,2,20641,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002210001,1126,2,2,2020-02-21 14:51:39,2020-02-21 15:21:49,88,2,20642,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2002210002,1348,1,0,2020-02-21 15:34:41,2020-02-21 16:06:11,88,2,20643,"eScentz (C-T, WH) with Personalised Text",eScentz with Packaging
+2002210002,1280,1,2,2020-02-21 15:34:41,2020-02-21 15:54:19,88,2,20644,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002210002,1203,1,2,2020-02-21 15:34:41,2020-02-21 15:43:54,88,2,20645,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002210002,1127,2,2,2020-02-21 15:34:41,2020-02-21 15:57:02,88,2,20646,"eScentz Cartridge, Citronella-Tea Tree",Customized Cartridge
+2002250001,1580,1,0,2020-02-25 15:18:25,2020-02-25 15:25:26,88,2,20647,"eScentz (T-T, GR) with Personalised Text",eScentz with Packaging
+2002250001,1548,1,2,2020-02-25 15:18:25,2020-02-25 15:25:26,88,2,20648,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2002250001,1539,1,2,2020-02-25 15:18:25,2020-02-25 15:25:26,88,2,20649,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2002250001,80,2,2,2020-02-25 15:18:25,2020-02-25 15:25:26,88,2,20650,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002250002,1448,12,0,2020-02-25 15:23:06,2020-02-25 15:25:26,50,2,20651,Cartridge-First Dielectric Printed to Heater Cured,"Cartridge Assembly, First Dielectric Screen Printing to Heater Oven Curing"
+2002260001,1354,1,0,2020-02-26 13:42:14,2020-02-27 14:15:08,88,2,20652,"eScentz (L-T, WH) with Personalised Text",eScentz with Packaging
+2002260001,1280,1,2,2020-02-26 13:42:14,2020-02-26 14:15:55,88,2,20653,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002260001,1203,1,2,2020-02-26 13:42:14,2020-02-26 14:03:59,88,2,20654,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002260001,1408,2,2,2020-02-26 13:42:14,2020-02-27 14:15:08,88,2,20655,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2002260002,1476,60,0,2020-02-26 13:42:14,2020-02-27 14:15:08,50,2,20656,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002270001,1366,1,0,2020-02-27 14:18:15,2020-02-28 08:50:02,88,2,20657,"eScentz (T-T, WH) with Personalised Text",eScentz with Packaging
+2002270001,1280,1,2,2020-02-27 14:18:15,2020-02-28 08:50:02,88,2,20658,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002270001,1203,1,2,2020-02-27 14:18:15,2020-02-28 08:50:02,88,2,20659,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002270001,80,2,2,2020-02-27 14:18:15,2020-02-28 08:50:02,88,2,20660,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2002280001,1476,60,0,2020-02-28 09:41:07,2020-02-28 12:03:37,50,2,20661,Cartridge-First Dielectric Cured to Heater Cured,"Cartridge Assembly, First Dielectric Oven Curing to Heater Oven Curing"
+2002280002,1590,1,0,2020-02-28 09:43:49,2020-02-28 12:03:37,88,2,20662,"eScentz (L-C, GR) with Personalised Text",eScentz with Packaging
+2002280002,1548,1,2,2020-02-28 09:43:49,2020-02-28 10:43:58,88,2,20663,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2002280002,1539,1,2,2020-02-28 09:43:49,2020-02-28 10:34:25,88,2,20664,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2002280002,1124,2,2,2020-02-28 09:43:49,2020-02-28 11:02:50,88,2,20665,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2002280003,1588,2,0,2020-02-28 09:43:49,2020-02-28 12:03:37,88,2,20666,"eScentz (C-E, GR) with Personalised Text",eScentz with Packaging
+2002280003,1548,2,2,2020-02-28 09:43:49,2020-02-28 10:45:49,88,2,20667,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2002280003,1539,2,2,2020-02-28 09:43:49,2020-02-28 10:34:25,88,2,20668,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2002280003,1125,4,2,2020-02-28 09:43:49,2020-02-28 11:05:11,88,2,20669,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2002280004,1624,2,0,2020-02-28 09:43:49,2020-02-28 12:03:37,88,2,20670,"eScentz (L-P, BL) with Personalised Text",eScentz with Packaging
+2002280004,1547,2,2,2020-02-28 09:43:50,2020-02-28 12:03:37,88,2,20671,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002280004,1538,2,2,2020-02-28 09:43:50,2020-02-28 12:03:37,88,2,20672,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002280004,67,4,2,2020-02-28 09:43:50,2020-02-28 11:07:35,88,2,20673,"eScentz Cartridge, Lavender-Peppermint",Customized Cartridge
+2002280005,1621,2,0,2020-02-28 09:43:50,2020-02-28 12:03:37,88,2,20674,"eScentz (L-C, BL) with Personalised Text",eScentz with Packaging
+2002280005,1547,2,2,2020-02-28 09:43:50,2020-02-28 11:30:21,88,2,20675,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002280005,1538,2,2,2020-02-28 09:43:50,2020-02-28 11:25:07,88,2,20676,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002280005,1124,4,2,2020-02-28 09:43:50,2020-02-28 11:25:57,88,2,20677,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2002280006,1591,1,0,2020-02-28 09:43:50,2020-02-28 12:03:37,88,2,20678,"eScentz (L-E, GR) with Personalised Text",eScentz with Packaging
+2002280006,1548,1,2,2020-02-28 09:43:50,2020-02-28 10:46:43,88,2,20679,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2002280006,1539,1,2,2020-02-28 09:43:50,2020-02-28 10:34:25,88,2,20680,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2002280006,1131,2,2,2020-02-28 09:43:50,2020-02-28 11:08:44,88,2,20681,"eScentz Cartridge, Lavender-Eucalyptus",Customized Cartridge
+2002280007,1621,2,0,2020-02-28 09:43:50,2020-02-28 12:03:37,88,2,20682,"eScentz (L-C, BL) with Personalised Text",eScentz with Packaging
+2002280007,1547,2,2,2020-02-28 09:43:50,2020-02-28 11:32:12,88,2,20683,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2002280007,1538,2,2,2020-02-28 09:43:50,2020-02-28 11:25:07,88,2,20684,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2002280007,1124,4,2,2020-02-28 09:43:50,2020-02-28 11:28:20,88,2,20685,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2002280008,1346,1,0,2020-02-28 13:37:54,2020-02-28 16:55:18,88,2,20690,"eScentz (C-E, WH) with Personalised Text",eScentz with Packaging
+2002280008,1280,1,2,2020-02-28 13:37:54,2020-02-28 14:57:58,88,2,20691,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002280008,1203,1,2,2020-02-28 13:37:54,2020-02-28 14:04:44,88,2,20692,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002280008,1125,2,2,2020-02-28 13:37:54,2020-02-28 15:10:51,88,2,20693,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2002280009,1345,1,0,2020-02-28 15:17:43,2020-02-28 16:55:18,88,2,20694,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2002280009,1280,1,2,2020-02-28 15:17:43,2020-02-28 16:30:05,88,2,20695,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002280009,1203,1,2,2020-02-28 15:17:43,2020-02-28 16:18:26,88,2,20696,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002280009,1124,2,2,2020-02-28 15:17:43,2020-02-28 16:24:59,88,2,20697,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2002280010,1347,1,0,2020-02-28 16:42:53,2020-02-28 18:36:50,88,2,20698,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2002280010,1280,1,2,2020-02-28 16:42:53,2020-02-28 18:32:19,88,2,20699,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002280010,1203,1,2,2020-02-28 16:42:53,2020-02-28 17:40:12,88,2,20700,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002280010,1126,2,2,2020-02-28 16:42:53,2020-02-28 18:20:05,88,2,20701,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003020001,1614,3,0,2020-03-02 10:38:58,2020-03-02 17:53:05,88,2,20702,"eScentz (E-T, BL) with Personalised Text",eScentz with Packaging
+2003020001,1547,3,2,2020-03-02 10:38:58,2020-03-02 11:34:54,88,2,20703,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003020001,1538,3,2,2020-03-02 10:38:58,2020-03-02 10:49:50,88,2,20704,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003020001,1137,6,2,2020-03-02 10:38:58,2020-03-02 11:44:54,88,2,20705,"eScentz Cartridge, Eucalyptus-Tea Tree",Customized Cartridge
+2003020002,1625,1,0,2020-03-02 10:38:58,2020-03-02 17:53:05,88,2,20706,"eScentz (L-T, BL) with Personalised Text",eScentz with Packaging
+2003020002,1547,1,2,2020-03-02 10:38:58,2020-03-02 11:35:50,88,2,20707,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003020002,1538,1,2,2020-03-02 10:38:58,2020-03-02 10:49:50,88,2,20708,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003020002,1408,2,2,2020-03-02 10:38:58,2020-03-02 11:46:06,88,2,20709,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2003020003,1347,4,0,2020-03-02 10:38:58,2020-03-02 17:53:05,88,2,20710,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003020003,1280,4,2,2020-03-02 10:38:58,2020-03-02 17:53:05,88,2,20711,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003020003,1203,4,2,2020-03-02 10:38:58,2020-03-02 17:53:05,88,2,20712,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003020003,1126,8,2,2020-03-02 10:38:58,2020-03-02 17:53:05,88,2,20713,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003020004,1581,4,0,2020-03-02 10:38:59,2020-03-02 17:53:05,88,2,20714,"eScentz (P-T, GR) with Personalised Text",eScentz with Packaging
+2003020004,1548,4,2,2020-03-02 10:38:59,2020-03-02 11:24:07,88,2,20715,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2003020004,1539,4,2,2020-03-02 10:38:59,2020-03-02 10:49:50,88,2,20716,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2003020004,1140,8,2,2020-03-02 10:38:59,2020-03-02 17:53:05,88,2,20717,"eScentz Cartridge, Peppermint-Tea Tree",Customized Cartridge
+2003030001,1345,1,0,2020-03-03 13:50:21,2020-03-04 09:04:10,88,2,20718,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2003030001,1280,1,2,2020-03-03 13:50:21,2020-03-03 17:55:42,88,2,20719,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003030001,1203,1,2,2020-03-03 13:50:21,2020-03-03 14:36:19,88,2,20720,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003030001,1124,2,2,2020-03-03 13:50:21,2020-03-03 17:58:38,88,2,20721,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003040001,1612,1,0,2020-03-04 09:41:46,2020-03-04 10:32:28,88,2,20722,"eScentz (P-T, BL) with Personalised Text",eScentz with Packaging
+2003040001,1547,1,2,2020-03-04 09:41:46,2020-03-04 10:23:26,88,2,20723,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003040001,1538,1,2,2020-03-04 09:41:46,2020-03-04 10:17:54,88,2,20724,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003040001,1140,2,2,2020-03-04 09:41:46,2020-03-04 10:17:15,88,2,20725,"eScentz Cartridge, Peppermint-Tea Tree",Customized Cartridge
+2002280011,1366,1,0,2020-03-04 10:36:22,2020-03-04 13:28:49,88,2,20726,"eScentz (T-T, WH) with Personalised Text",eScentz with Packaging
+2002280011,1280,1,2,2020-03-04 10:36:22,2020-03-04 11:20:41,88,2,20727,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2002280011,1203,1,2,2020-03-04 10:36:22,2020-03-04 10:45:35,88,2,20728,"Lower Casing Printed, WH",Printing of White Lower Casing
+2002280011,80,2,2,2020-03-04 10:36:22,2020-03-04 11:23:25,88,2,20729,"eScentz Cartridge, Tea Tree-Tea Tree",Customized Cartridge
+2003040002,1345,1,0,2020-03-04 16:34:49,2020-03-05 09:47:28,88,2,20730,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2003040002,1280,1,2,2020-03-04 16:34:49,2020-03-04 17:23:23,88,2,20731,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003040002,1203,1,2,2020-03-04 16:34:49,2020-03-04 17:09:55,88,2,20732,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003040002,1124,2,2,2020-03-04 16:34:49,2020-03-04 17:39:00,88,2,20733,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003050001,1345,1,0,2020-03-05 09:53:20,2020-03-05 10:49:27,88,2,20734,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2003050001,1280,1,2,2020-03-05 09:53:20,2020-03-05 10:29:23,88,2,20735,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003050001,1203,1,2,2020-03-05 09:53:20,2020-03-05 10:23:53,88,2,20736,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003050001,1124,2,2,2020-03-05 09:53:20,2020-03-05 10:19:58,88,2,20737,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003090001,1363,1,0,2020-03-09 13:48:46,2020-03-10 14:36:01,88,2,20738,"eScentz (P-T, WH) with Personalised Text",eScentz with Packaging
+2003090001,1280,1,2,2020-03-09 13:48:49,2020-03-10 14:36:01,88,2,20739,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003090001,1203,1,2,2020-03-09 13:48:49,2020-03-10 14:36:01,88,2,20740,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003090001,1140,2,2,2020-03-09 13:48:49,2020-03-10 14:36:01,88,2,20741,"eScentz Cartridge, Peppermint-Tea Tree",Customized Cartridge
+2003100001,1618,1,0,2020-03-10 15:12:53,2020-03-10 15:57:45,88,2,20742,"eScentz (C-E, BL) with Personalised Text",eScentz with Packaging
+2003100001,1547,1,2,2020-03-10 15:12:53,2020-03-10 15:35:58,88,2,20743,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003100001,1538,1,2,2020-03-10 15:12:53,2020-03-10 15:29:48,88,2,20744,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003100001,1125,2,2,2020-03-10 15:12:53,2020-03-10 15:32:45,88,2,20745,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2003100002,1345,1,0,2020-03-10 16:16:13,2020-03-10 18:26:45,88,2,20754,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2003100002,1280,1,2,2020-03-10 16:16:13,2020-03-10 17:07:58,88,2,20755,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003100002,1203,1,2,2020-03-10 16:16:13,2020-03-10 16:57:27,88,2,20756,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003100002,1124,2,2,2020-03-10 16:16:13,2020-03-10 17:11:08,88,2,20757,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003100003,1346,1,0,2020-03-10 17:19:03,2020-03-10 18:26:45,88,2,20758,"eScentz (C-E, WH) with Personalised Text",eScentz with Packaging
+2003100003,1280,1,2,2020-03-10 17:19:03,2020-03-10 17:37:37,88,2,20759,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003100003,1203,1,2,2020-03-10 17:19:03,2020-03-10 17:27:57,88,2,20760,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003100003,1125,2,2,2020-03-10 17:19:03,2020-03-10 17:40:08,88,2,20761,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2003100004,1347,1,0,2020-03-10 17:42:08,2020-03-10 18:26:45,88,2,20762,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003100004,1280,1,2,2020-03-10 17:42:08,2020-03-10 18:17:27,88,2,20763,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003100004,1203,1,2,2020-03-10 17:42:08,2020-03-10 18:11:32,88,2,20764,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003100004,1126,2,2,2020-03-10 17:42:08,2020-03-10 18:05:54,88,2,20765,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003100005,1353,1,0,2020-03-11 09:59:44,2020-03-11 13:47:31,88,2,20766,"eScentz (L-P, WH) with Personalised Text",eScentz with Packaging
+2003100005,1280,1,2,2020-03-11 09:59:44,2020-03-11 13:47:31,88,2,20767,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003100005,1203,1,2,2020-03-11 09:59:44,2020-03-11 13:47:31,88,2,20768,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003100005,67,2,2,2020-03-11 09:59:44,2020-03-11 12:30:23,88,2,20769,"eScentz Cartridge, Lavender-Peppermint",Customized Cartridge
+2003110001,1264,4,0,2020-03-11 13:48:04,2020-03-11 15:42:49,88,2,20770,eScentz Cartridge (C-P),Customized Cartridge with Packaging
+2003110001,1126,8,2,2020-03-11 13:48:04,2020-03-11 15:42:49,88,2,20771,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003110002,1347,2,0,2020-03-11 15:51:04,2020-03-11 18:41:17,88,2,20772,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003110002,1280,2,2,2020-03-11 15:51:04,2020-03-11 18:17:54,88,2,20773,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003110002,1203,2,2,2020-03-11 15:51:04,2020-03-11 18:11:56,88,2,20774,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003110002,1126,4,2,2020-03-11 15:51:04,2020-03-11 18:41:17,88,2,20775,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003120001,1347,1,0,2020-03-12 10:03:05,2020-03-12 11:07:17,88,2,20776,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003120001,1280,1,2,2020-03-12 10:03:05,2020-03-12 10:39:24,88,2,20777,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003120001,1203,1,2,2020-03-12 10:03:05,2020-03-12 11:07:17,88,2,20778,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003120001,1126,2,2,2020-03-12 10:03:05,2020-03-12 11:07:17,88,2,20779,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003120002,1347,1,0,2020-03-12 11:12:55,2020-03-12 13:23:55,88,2,20780,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003120002,1280,1,2,2020-03-12 11:12:55,2020-03-12 13:14:09,88,2,20781,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003120002,1203,1,2,2020-03-12 11:12:55,2020-03-12 13:04:25,88,2,20782,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003120002,1126,2,2,2020-03-12 11:12:55,2020-03-12 13:16:11,88,2,20783,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003120003,1625,1,0,2020-03-12 14:33:56,2020-03-12 15:21:10,88,2,20784,"eScentz (L-T, BL) with Personalised Text",eScentz with Packaging
+2003120003,1547,1,2,2020-03-12 14:33:56,2020-03-12 15:13:34,88,2,20785,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003120003,1538,1,2,2020-03-12 14:33:56,2020-03-12 14:50:48,88,2,20786,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003120003,1408,2,2,2020-03-12 14:33:56,2020-03-12 15:12:24,88,2,20787,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2003120004,1625,1,0,2020-03-12 14:33:56,2020-03-12 15:21:10,88,2,20788,"eScentz (L-T, BL) with Personalised Text",eScentz with Packaging
+2003120004,1547,1,2,2020-03-12 14:33:56,2020-03-12 15:12:39,88,2,20789,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003120004,1538,1,2,2020-03-12 14:33:56,2020-03-12 14:50:48,88,2,20790,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003120004,1408,2,2,2020-03-12 14:33:56,2020-03-12 15:13:36,88,2,20791,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2003120005,1352,1,0,2020-03-12 14:33:56,2020-03-12 15:21:10,88,2,20792,"eScentz (L-E, WH) with Personalised Text",eScentz with Packaging
+2003120005,1280,1,2,2020-03-12 14:33:56,2020-03-12 15:09:38,88,2,20793,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003120005,1203,1,2,2020-03-12 14:33:56,2020-03-12 14:50:48,88,2,20794,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003120005,1131,2,2,2020-03-12 14:33:56,2020-03-12 15:14:46,88,2,20795,"eScentz Cartridge, Lavender-Eucalyptus",Customized Cartridge
+2003120006,1625,1,0,2020-03-12 14:33:56,2020-03-12 15:21:10,88,2,20796,"eScentz (L-T, BL) with Personalised Text",eScentz with Packaging
+2003120006,1547,1,2,2020-03-12 14:33:56,2020-03-12 15:21:10,88,2,20797,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003120006,1538,1,2,2020-03-12 14:33:56,2020-03-12 15:21:10,88,2,20798,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003120006,1408,2,2,2020-03-12 14:33:56,2020-03-12 15:15:58,88,2,20799,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2003120007,1363,1,0,2020-03-12 14:33:56,2020-03-12 15:21:10,88,2,20800,"eScentz (P-T, WH) with Personalised Text",eScentz with Packaging
+2003120007,1280,1,2,2020-03-12 14:33:56,2020-03-12 15:10:49,88,2,20801,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003120007,1203,1,2,2020-03-12 14:33:56,2020-03-12 14:50:48,88,2,20802,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003120007,1140,2,2,2020-03-12 14:33:56,2020-03-12 15:17:12,88,2,20803,"eScentz Cartridge, Peppermint-Tea Tree",Customized Cartridge
+2003130001,1347,1,0,2020-03-13 11:01:16,2020-03-13 12:57:07,88,2,20812,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003130001,1280,1,2,2020-03-13 11:01:16,2020-03-13 11:37:20,88,2,20813,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003130001,1203,1,2,2020-03-13 11:01:16,2020-03-13 11:28:05,88,2,20814,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003130001,1126,2,2,2020-03-13 11:01:16,2020-03-13 11:47:44,88,2,20815,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003130002,1625,1,0,2020-03-13 15:01:57,2020-03-13 19:35:40,88,2,20816,"eScentz (L-T, BL) with Personalised Text",eScentz with Packaging
+2003130002,1547,1,2,2020-03-13 15:01:57,2020-03-13 19:21:17,88,2,20817,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003130002,1538,1,2,2020-03-13 15:01:57,2020-03-13 17:27:30,88,2,20818,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003130002,1408,2,2,2020-03-13 15:01:57,2020-03-13 19:23:55,88,2,20819,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2003170001,1347,1,0,2020-03-17 09:42:49,2020-03-17 12:26:09,88,2,20820,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003170001,1280,1,2,2020-03-17 09:42:49,2020-03-17 12:26:09,88,2,20821,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003170001,1203,1,2,2020-03-17 09:42:49,2020-03-17 12:26:09,88,2,20822,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003170001,1126,2,2,2020-03-17 09:42:49,2020-03-17 12:26:09,88,2,20823,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003180001,1345,1,0,2020-03-18 15:10:52,2020-03-18 15:31:03,88,2,20824,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2003180001,1280,1,2,2020-03-18 15:10:52,2020-03-18 15:31:03,88,2,20825,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003180001,1203,1,2,2020-03-18 15:10:52,2020-03-18 15:31:03,88,2,20826,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003180001,1124,2,2,2020-03-18 15:10:52,2020-03-18 15:31:03,88,2,20827,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003180002,1346,1,0,2020-03-18 16:45:44,2020-03-18 19:04:09,88,2,20828,"eScentz (C-E, WH) with Personalised Text",eScentz with Packaging
+2003180002,1280,1,2,2020-03-18 16:45:44,2020-03-18 17:02:35,88,2,20829,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003180002,1203,1,2,2020-03-18 16:45:44,2020-03-18 16:54:23,88,2,20830,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003180002,1125,2,2,2020-03-18 16:45:44,2020-03-18 17:06:15,88,2,20831,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2003180003,1359,1,0,2020-03-18 17:14:30,2020-03-18 19:04:09,88,2,20832,"eScentz (E-T, WH) with Personalised Text",eScentz with Packaging
+2003180003,1280,1,2,2020-03-18 17:14:30,2020-03-18 17:47:19,88,2,20833,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003180003,1203,1,2,2020-03-18 17:14:30,2020-03-18 17:22:33,88,2,20834,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003180003,1137,2,2,2020-03-18 17:14:30,2020-03-18 17:49:41,88,2,20835,"eScentz Cartridge, Eucalyptus-Tea Tree",Customized Cartridge
+2003180004,1345,1,0,2020-03-18 17:50:06,2020-03-18 19:04:09,88,2,20836,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2003180004,1280,1,2,2020-03-18 17:50:06,2020-03-18 18:55:02,88,2,20837,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003180004,1203,1,2,2020-03-18 17:50:06,2020-03-18 18:22:19,88,2,20838,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003180004,1124,2,2,2020-03-18 17:50:06,2020-03-18 18:57:43,88,2,20839,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003190001,1347,1,0,2020-03-19 11:41:03,2020-03-19 16:48:00,88,2,20840,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003190001,1280,1,2,2020-03-19 11:41:03,2020-03-19 12:21:22,88,2,20841,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003190001,1203,1,2,2020-03-19 11:41:03,2020-03-19 11:58:48,88,2,20842,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003190001,1126,2,2,2020-03-19 11:41:03,2020-03-19 12:24:00,88,2,20843,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003190002,1346,1,0,2020-03-19 14:02:15,2020-03-19 16:48:00,88,2,20844,"eScentz (C-E, WH) with Personalised Text",eScentz with Packaging
+2003190002,1280,1,2,2020-03-19 14:02:16,2020-03-19 14:20:15,88,2,20845,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003190002,1203,1,2,2020-03-19 14:02:16,2020-03-19 14:10:50,88,2,20846,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003190002,1125,2,2,2020-03-19 14:02:16,2020-03-19 14:22:38,88,2,20847,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2003190003,1345,1,0,2020-03-19 14:19:48,2020-03-19 16:48:00,88,2,20848,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2003190003,1280,1,2,2020-03-19 14:19:48,2020-03-19 15:10:19,88,2,20849,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003190003,1203,1,2,2020-03-19 14:19:48,2020-03-19 14:39:39,88,2,20850,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003190003,1124,2,2,2020-03-19 14:19:48,2020-03-19 15:12:55,88,2,20851,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003190004,1347,1,0,2020-03-19 14:59:18,2020-03-19 17:46:48,88,2,20852,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003190004,1280,1,2,2020-03-19 14:59:18,2020-03-19 17:33:21,88,2,20853,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003190004,1203,1,2,2020-03-19 14:59:18,2020-03-19 17:24:30,88,2,20854,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003190004,1126,2,2,2020-03-19 14:59:18,2020-03-19 17:35:50,88,2,20855,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003190005,1345,1,0,2020-03-19 17:43:51,2020-03-19 18:28:29,88,2,20856,"eScentz (L-C, WH) with Personalised Text",eScentz with Packaging
+2003190005,1280,1,2,2020-03-19 17:43:51,2020-03-19 18:28:29,88,2,20857,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003190005,1203,1,2,2020-03-19 17:43:51,2020-03-19 18:23:36,88,2,20858,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003190005,1124,2,2,2020-03-19 17:43:51,2020-03-19 18:28:30,88,2,20859,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003200001,1358,1,0,2020-03-20 09:50:25,2020-03-20 13:05:07,88,2,20860,"eScentz (E-P, WH) with Personalised Text",eScentz with Packaging
+2003200001,1280,1,2,2020-03-20 09:50:25,2020-03-20 11:35:35,88,2,20861,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003200001,1203,1,2,2020-03-20 09:50:25,2020-03-20 10:03:28,88,2,20862,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003200001,1136,2,2,2020-03-20 09:50:25,2020-03-20 10:38:16,88,2,20863,"eScentz Cartridge, Eucalyptus-Peppermint",Customized Cartridge
+2003200002,1347,1,0,2020-03-20 12:12:38,2020-03-20 15:03:15,88,2,20864,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003200002,1280,1,2,2020-03-20 12:12:38,2020-03-20 12:39:07,88,2,20865,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003200002,1203,1,2,2020-03-20 12:12:38,2020-03-20 12:30:55,88,2,20866,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003200002,1126,2,2,2020-03-20 12:12:38,2020-03-20 14:02:59,88,2,20867,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003200003,1347,1,0,2020-03-20 13:44:38,2020-03-20 15:03:19,88,2,20868,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003200003,1280,1,2,2020-03-20 13:44:38,2020-03-20 14:18:27,88,2,20869,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003200003,1203,1,2,2020-03-20 13:44:38,2020-03-20 14:09:36,88,2,20870,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003200003,1126,2,2,2020-03-20 13:44:38,2020-03-20 14:20:57,88,2,20871,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003200004,1346,1,0,2020-03-20 14:24:56,2020-03-20 18:07:19,88,2,20872,"eScentz (C-E, WH) with Personalised Text",eScentz with Packaging
+2003200004,1280,1,2,2020-03-20 14:24:56,2020-03-20 15:12:36,88,2,20873,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003200004,1203,1,2,2020-03-20 14:24:56,2020-03-20 14:40:39,88,2,20874,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003200004,1125,2,2,2020-03-20 14:24:56,2020-03-20 15:05:53,88,2,20875,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2003200005,1358,1,0,2020-03-20 15:02:43,2020-03-20 18:07:19,88,2,20876,"eScentz (E-P, WH) with Personalised Text",eScentz with Packaging
+2003200005,1280,1,2,2020-03-20 15:02:43,2020-03-20 16:30:00,88,2,20877,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003200005,1203,1,2,2020-03-20 15:02:43,2020-03-20 15:28:19,88,2,20878,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003200005,1136,2,2,2020-03-20 15:02:43,2020-03-20 16:32:12,88,2,20879,"eScentz Cartridge, Eucalyptus-Peppermint",Customized Cartridge
+2003200006,1347,1,0,2020-03-20 16:36:57,2020-03-20 18:57:04,88,2,20880,"eScentz (C-P, WH) with Personalised Text",eScentz with Packaging
+2003200006,1280,1,2,2020-03-20 16:36:57,2020-03-20 18:57:04,88,2,20881,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003200006,1203,1,2,2020-03-20 16:36:57,2020-03-20 16:57:30,88,2,20882,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003200006,1126,2,2,2020-03-20 16:36:57,2020-03-20 18:57:04,88,2,20883,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003120008,1354,1,0,2020-03-24 13:14:24,2020-03-24 13:48:54,88,2,20884,"eScentz (L-T, WH) with Personalised Text",eScentz with Packaging
+2003120008,1280,1,2,2020-03-24 13:14:24,2020-03-24 13:48:54,88,2,20885,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003120008,1203,1,2,2020-03-24 13:14:24,2020-03-24 13:48:54,88,2,20886,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003120008,1408,2,2,2020-03-24 13:14:24,2020-03-24 13:48:54,88,2,20887,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2003240001,1353,1,0,2020-03-24 14:12:05,2020-03-24 14:55:55,88,2,20888,"eScentz (L-P, WH) with Personalised Text",eScentz with Packaging
+2003240001,1280,1,2,2020-03-24 14:12:05,2020-03-24 14:28:57,88,2,20889,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003240001,1203,1,2,2020-03-24 14:12:05,2020-03-24 14:21:56,88,2,20890,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003240001,67,2,2,2020-03-24 14:12:05,2020-03-24 14:47:45,88,2,20891,"eScentz Cartridge, Lavender-Peppermint",Customized Cartridge
+2003250001,1353,1,0,2020-03-25 09:40:26,2020-03-26 13:12:11,88,2,20892,"eScentz (L-P, WH) with Personalised Text",eScentz with Packaging
+2003250001,1280,1,2,2020-03-25 09:40:26,2020-03-25 10:10:24,88,2,20893,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003250001,1203,1,2,2020-03-25 09:40:26,2020-03-25 09:53:31,88,2,20894,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003250001,67,2,2,2020-03-25 09:40:26,2020-03-25 10:05:52,88,2,20895,"eScentz Cartridge, Lavender-Peppermint",Customized Cartridge
+2003060001,1594,1,0,2020-03-26 14:27:44,2020-03-26 15:45:17,88,2,20896,"eScentz (L-T, GR) with Personalised Text",eScentz with Packaging
+2003060001,1548,1,2,2020-03-26 14:27:44,2020-03-26 15:36:09,88,2,20897,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2003060001,1539,1,2,2020-03-26 14:27:44,2020-03-26 14:39:44,88,2,20898,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2003060001,1408,2,2,2020-03-26 14:27:44,2020-03-26 15:32:48,88,2,20899,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2003260001,1625,1,0,2020-03-26 15:45:29,2020-03-27 10:16:13,88,2,20900,"eScentz (L-T, BL) with Personalised Text",eScentz with Packaging
+2003260001,1547,1,2,2020-03-26 15:45:29,2020-03-26 16:44:18,88,2,20901,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003260001,1538,1,2,2020-03-26 15:45:29,2020-03-26 15:55:55,88,2,20902,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003260001,1408,2,2,2020-03-26 15:45:29,2020-03-26 16:55:50,88,2,20903,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2003270001,1363,1,0,2020-03-27 15:40:27,2020-03-30 10:04:56,88,2,20904,"eScentz (P-T, WH) with Personalised Text",eScentz with Packaging
+2003270001,1280,1,2,2020-03-27 15:40:27,2020-03-30 10:04:56,88,2,20905,eScentz Holder (WH) with Personalised Text (BLK),"Main Driver, Assembled (MTO)"
+2003270001,1203,1,2,2020-03-27 15:40:27,2020-03-27 15:47:48,88,2,20906,"Lower Casing Printed, WH",Printing of White Lower Casing
+2003270001,1140,2,2,2020-03-27 15:40:28,2020-03-30 10:04:56,88,2,20907,"eScentz Cartridge, Peppermint-Tea Tree",Customized Cartridge
+2003270002,1619,1,0,2020-03-27 15:40:28,2020-03-30 10:04:56,88,2,20908,"eScentz (C-P, BL) with Personalised Text",eScentz with Packaging
+2003270002,1547,1,2,2020-03-27 15:40:28,2020-03-30 10:04:56,88,2,20909,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003270002,1538,1,2,2020-03-27 15:40:28,2020-03-27 15:52:50,88,2,20910,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003270002,1126,2,2,2020-03-27 15:40:28,2020-03-30 10:04:56,88,2,20911,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003300001,1590,1,0,2020-03-30 13:37:31,2020-03-30 14:16:15,88,2,20912,"eScentz (L-C, GR) with Personalised Text",eScentz with Packaging
+2003300001,1548,1,2,2020-03-30 13:37:31,2020-03-30 14:01:17,88,2,20913,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2003300001,1539,1,2,2020-03-30 13:37:31,2020-03-30 13:46:46,88,2,20914,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2003300001,1124,2,2,2020-03-30 13:37:31,2020-03-30 14:07:23,88,2,20915,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003300002,1619,1,0,2020-03-30 14:23:42,2020-03-30 14:52:06,88,2,20916,"eScentz (C-P, BL) with Personalised Text",eScentz with Packaging
+2003300002,1547,1,2,2020-03-30 14:23:42,2020-03-30 14:42:36,88,2,20917,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003300002,1538,1,2,2020-03-30 14:23:42,2020-03-30 14:33:17,88,2,20918,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003300002,1126,2,2,2020-03-30 14:23:42,2020-03-30 14:45:10,88,2,20919,"eScentz Cartridge, Citronella-Peppermint",Customized Cartridge
+2003300003,1584,1,0,2020-03-30 16:56:30,2020-03-30 17:50:28,88,2,20920,"eScentz (E-P, GR) with Personalised Text",eScentz with Packaging
+2003300003,1548,1,2,2020-03-30 16:56:30,2020-03-30 17:39:17,88,2,20921,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2003300003,1539,1,2,2020-03-30 16:56:30,2020-03-30 17:17:18,88,2,20922,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2003300003,1136,2,2,2020-03-30 16:56:30,2020-03-30 17:43:24,88,2,20923,"eScentz Cartridge, Eucalyptus-Peppermint",Customized Cartridge
+2003310001,1615,1,0,2020-03-31 13:36:43,2020-03-31 14:04:53,88,2,20924,"eScentz (E-T, BL) with Personalised Text",eScentz with Packaging
+2003310001,1547,1,2,2020-03-31 13:36:43,2020-03-31 14:00:10,88,2,20925,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003310001,1538,1,2,2020-03-31 13:36:43,2020-03-31 13:46:38,88,2,20926,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003310001,1136,2,2,2020-03-31 13:36:43,2020-03-31 14:03:26,88,2,20927,"eScentz Cartridge, Eucalyptus-Peppermint",Customized Cartridge
+2003310002,1581,1,0,2020-03-31 14:15:16,2020-03-31 14:48:53,88,2,20928,"eScentz (P-T, GR) with Personalised Text",eScentz with Packaging
+2003310002,1548,1,2,2020-03-31 14:15:16,2020-03-31 14:48:53,88,2,20929,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2003310002,1539,1,2,2020-03-31 14:15:16,2020-03-31 14:48:53,88,2,20930,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2003310002,1140,2,2,2020-03-31 14:15:16,2020-03-31 14:35:54,88,2,20931,"eScentz Cartridge, Peppermint-Tea Tree",Customized Cartridge
+2003310003,1621,1,0,2020-03-31 14:46:37,2020-03-31 16:49:31,88,2,20932,"eScentz (L-C, BL) with Personalised Text",eScentz with Packaging
+2003310003,1547,1,2,2020-03-31 14:46:37,2020-03-31 15:06:05,88,2,20933,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2003310003,1538,1,2,2020-03-31 14:46:37,2020-03-31 14:55:00,88,2,20934,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2003310003,1124,2,2,2020-03-31 14:46:37,2020-03-31 16:49:31,88,2,20935,"eScentz Cartridge, Lavender-Citronella",Customized Cartridge
+2003310004,1584,1,0,2020-03-31 16:46:02,2020-03-31 17:58:29,88,2,20936,"eScentz (E-P, GR) with Personalised Text",eScentz with Packaging
+2003310004,1548,1,2,2020-03-31 16:46:02,2020-03-31 17:48:38,88,2,20937,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2003310004,1539,1,2,2020-03-31 16:46:02,2020-03-31 16:56:15,88,2,20938,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2003310004,1136,2,2,2020-03-31 16:46:02,2020-03-31 17:45:17,88,2,20939,"eScentz Cartridge, Eucalyptus-Peppermint",Customized Cartridge
+2004010001,1615,1,0,2020-04-01 13:42:41,2020-04-01 14:33:35,88,2,20940,"eScentz (E-T, BL) with Personalised Text",eScentz with Packaging
+2004010001,1547,1,2,2020-04-01 13:42:41,2020-04-01 14:11:20,88,2,20941,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2004010001,1538,1,2,2020-04-01 13:42:41,2020-04-01 14:04:40,88,2,20942,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2004010001,1136,2,2,2020-04-01 13:42:41,2020-04-01 14:07:52,88,2,20943,"eScentz Cartridge, Eucalyptus-Peppermint",Customized Cartridge
+2004010002,1584,1,0,2020-04-01 14:35:33,2020-04-01 15:13:25,88,2,20944,"eScentz (E-P, GR) with Personalised Text",eScentz with Packaging
+2004010002,1548,1,2,2020-04-01 14:35:33,2020-04-01 14:57:22,88,2,20945,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2004010002,1539,1,2,2020-04-01 14:35:33,2020-04-01 14:45:48,88,2,20946,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2004010002,1136,2,2,2020-04-01 14:35:33,2020-04-01 14:57:12,88,2,20947,"eScentz Cartridge, Eucalyptus-Peppermint",Customized Cartridge
+2004010003,1625,1,0,2020-04-01 15:16:56,2020-04-01 15:45:51,88,2,20948,"eScentz (L-T, BL) with Personalised Text",eScentz with Packaging
+2004010003,1547,1,2,2020-04-01 15:16:56,2020-04-01 15:34:28,88,2,20949,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2004010003,1538,1,2,2020-04-01 15:16:56,2020-04-01 15:25:18,88,2,20950,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2004010003,1408,2,2,2020-04-01 15:16:56,2020-04-01 15:36:58,88,2,20951,"eScentz Cartridge, Lavender-Tea Tree",Customized Cartridge
+2004010004,1588,1,0,2020-04-01 16:02:00,2020-04-01 16:59:11,88,2,20952,"eScentz (C-E, GR) with Personalised Text",eScentz with Packaging
+2004010004,1548,1,2,2020-04-01 16:02:00,2020-04-01 16:48:23,88,2,20953,eScentz Holder (GR) with Personalised Text (BLK),"Main Driver, Assembled (MTO) GR"
+2004010004,1539,1,2,2020-04-01 16:02:00,2020-04-01 16:10:20,88,2,20954,"Lower Casing Printed, GR",Printing of Green Lower Casing
+2004010004,1125,2,2,2020-04-01 16:02:00,2020-04-01 16:30:51,88,2,20955,"eScentz Cartridge, Citronella-Eucalyptus	",Customized Cartridge
+2004010005,1615,1,0,2020-04-01 16:55:10,2020-04-01 17:33:24,88,2,20956,"eScentz (E-T, BL) with Personalised Text",eScentz with Packaging
+2004010005,1547,1,2,2020-04-01 16:55:10,2020-04-01 17:18:28,88,2,20957,eScentz Holder (BL) with Personalised Text (BLK),"Main Driver, Assembled (MTO) BL"
+2004010005,1538,1,2,2020-04-01 16:55:10,2020-04-01 17:08:19,88,2,20958,"Lower Casing Printed, BL",Printing of Blue Lower Casing
+2004010005,1136,2,2,2020-04-01 16:55:10,2020-04-01 17:20:56,88,2,20959,"eScentz Cartridge, Eucalyptus-Peppermint",Customized Cartridge
