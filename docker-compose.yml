@@ -12,6 +12,8 @@ services:
       - ./datasets:/home/jovyan/datasets
       - ./results:/home/jovyan/results
       - ./plots:/home/jovyan/plots
+      - ./API:/home/jovyan/API
+      - ./models:/home/jovyan/models
     command:
       - --no-browser
       - --ip=0.0.0.0
